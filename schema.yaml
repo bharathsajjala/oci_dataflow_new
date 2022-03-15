@@ -1,0 +1,31 @@
+# reference for schema.yaml:
+# https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/terraformconfigresourcemanager_topic-schema.htm#exampleschema
+title: "OCI Data Flow Pipeline"
+description: "Deploy the building blocks that are necessary for your data flow solution architecture."
+schemaVersion: 1.1.0
+version: 20190404
+locale: "en"
+
+variableGroups:
+- title: "Authentication"
+  visible: false
+  variables:
+    - tenancy_ocid
+    - user_ocid
+    - fingerprint
+    - private_key_path
+    - region
+    - current_user_ocid
+- title: "Compartment"
+  variables:
+    - compartment_name
+    - compartment_description
+    - compartment_id
+    - parent_compartment_id
+    - enable_delete
+    - compartment_group_is_deployed
+    - compartment_group_name
+    - compartment_group_description
+    - compartment_policy_is_deployed
+    - compartment_policy_name
+    - compartment_policy_description
