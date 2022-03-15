@@ -5,7 +5,7 @@ variable "region" {}
 variable "compartment_name" {
   type        = string
   description = "The id of the machine image (AMI) to use for the server."
-  default = "terraform_compartment"
+  default = "tf-df-compartment"
 }
 variable "bucket_name"{default="tf-df-logs"}
 
