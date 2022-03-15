@@ -8,7 +8,6 @@ locale: "en"
 
 variableGroups:
 - title: "Authentication"
-  visible: false
   variables:
     - tenancy_ocid
     - user_ocid
