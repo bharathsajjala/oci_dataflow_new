@@ -28,3 +28,8 @@ variableGroups:
     - compartment_policy_is_deployed
     - compartment_policy_name
     - compartment_policy_description
+- title: "Bucket"
+  variables:
+    - bucket_name
+    - bucket_name_warehouse
+    - bucket_namespace
