@@ -1,4 +1,4 @@
-variable "compartment_id"{}
+variable "compartment_id"{default="cid"}
 variable "tenancy_ocid" {}
 variable "region" {}
 
@@ -9,7 +9,7 @@ variable "compartment_name" {
 }
 variable "bucket_name"{default="tf-df-logs"}
 
-variable "bucket_name_warehouse"{}
-variable "bucket_namespace"{}
+variable "bucket_name_warehouse"{default="tf-df-warehouse"}
+variable "bucket_namespace"{default="bigdatadatasciencelarge"}
 variable "current_user_ocid"{}
 
