@@ -1,5 +1,5 @@
 
-# oci-datascience-template
+# oci-dataflow-template
 Deploy the building blocks that are necessary for your data flow solution architecture.
 
 ## Table of Contents
